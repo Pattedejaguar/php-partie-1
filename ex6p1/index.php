@@ -25,8 +25,8 @@
         </header>
         <!-- main -->
         <main>
-          <?php $name=Jeanne;?>
-      <p class="text-center"> Bonjour <?php echo $name; ?> comment vas tu ?</b></p>
+          <?php $name='Jeanne';?>
+      <p class="text-center"> Bonjour <?php echo $name;?> comment vas-tu ?</b></p>
       <footer>
 
         </footer>

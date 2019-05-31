@@ -28,14 +28,16 @@
       </header>
       <!-- main -->
       <main>
-        <?php $resultat0 = 3+4;
+        <?php
+        $resultat0 = 3+4;
         $resultat1 = 5*20;
-        $resultat2 = 45/5 ;?>
+        $resultat2 = 45/5;
+        ?>
         <p class="text-center">
           <ul>les résultats respectifs sont :
-            <li>   <?php echo $resultat0 ?> </li>
-            <li>   <?php echo $resultat1 ?>  </li>
-            <li>   <?php echo $resultat2 ?> </li>
+            <li><?php echo $resultat0 ?></li>
+            <li><?php echo $resultat1 ?></li>
+            <li><?php echo $resultat2 ?></li>
           </ul>
         </p>
       </main>

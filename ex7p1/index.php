@@ -28,7 +28,8 @@ Afficher : "Bonjour" + lastname + firstname + ",tu as" + age + "ans".
           <?php $name=Julien;
                 $lastname=Stagram;
                 $age = 37 ?>
-      <p class="text-center"> Bonjour <?php echo $lastname;?> <?php echo $name;?> tu as <?php echo $age;?> ans.</p>
+      <p class="text-center"> Bonjour <?= $lastname .' '.$name.' tu as'.$age.'ans'
+      ?>.</p>
       <footer>
 
         </footer>
